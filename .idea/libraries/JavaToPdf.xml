@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JavaToPdf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/JavaToPdf.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

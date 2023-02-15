@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaToPdf.jnlp">
+  <information>
+    <title>JavaToPdf</title>
+    <vendor>Michel</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaToPdf.jar" size="7605" download="eager" />
+    <jar href="lib\barcodes-7.1.3.jar" size="150343" download="eager" />
+    <jar href="lib\font-asian-7.1.3.jar" size="2166108" download="eager" />
+    <jar href="lib\forms-7.1.3.jar" size="77419" download="eager" />
+    <jar href="lib\hyph-7.1.3.jar" size="982942" download="eager" />
+    <jar href="lib\io-7.1.3.jar" size="805505" download="eager" />
+    <jar href="lib\kernel-7.1.3.jar" size="1148277" download="eager" />
+    <jar href="lib\layout-7.1.3.jar" size="435619" download="eager" />
+    <jar href="lib\pdfa-7.1.3.jar" size="46939" download="eager" />
+    <jar href="lib\pdftest-7.1.3.jar" size="23329" download="eager" />
+    <jar href="lib\sign-7.1.3.jar" size="123046" download="eager" />
+    <jar href="lib\slf4j-api-1.7.21.jar" size="41071" download="eager" />
+    <jar href="lib\slf4j-simple-1.6.1.jar" size="7669" download="eager" />
+    <jar href="lib\styled-xml-parser-7.1.3.jar" size="490299" download="eager" />
+    <jar href="lib\svg-7.1.3.jar" size="97170" download="eager" />
+  </resources>
+  <applet-desc  width="550" height="200" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaToPdf" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="550" height="200" main-class="texttopdf.TextToPdf"  name="JavaToPdf" />
+  <update check="always"/>
+</jnlp>
